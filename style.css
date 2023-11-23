@@ -64,6 +64,23 @@
     width: 500px;
 }
 
+.ex-6-img:hover{
+    filter: grayscale(100%);
+}
+
+.ex-7-img{
+    transition: 3s;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(90%) blur(5px);
+}
+
+.ex-8-img:hover{
+    filter: grayscale(90%) invert(140%);
+    border-radius: 10px;
+}
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
